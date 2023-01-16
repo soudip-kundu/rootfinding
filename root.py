@@ -19,8 +19,6 @@ d=0
 f1=f(i)
 import numpy as np
 for n in np.arange(i,g+a,a):
-    print(n)
-    print(f(n))
     if f(n)==0:
         print("the root of the above equation is ",n)
         d+=1
@@ -33,7 +31,6 @@ for n in np.arange(i,g+a,a):
     n=n+a
     n="%0.02f"%n 
 if c>0:     
- print("the root is between ","%0.3f"%(n-a)," & ","%0.3f"%n)
+ print("the root is between ","%0.2f"%(n-a)," & ","%0.2f"%n)
 if c==0 and d==0:
     print("there is no solution within the range [",i,",",g,"]") 
- 
