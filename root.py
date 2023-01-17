@@ -34,3 +34,5 @@ if c>0:
  print("the root is between ","%0.2f"%(n-a)," & ","%0.2f"%n)
 if c==0 and d==0:
     print("there is no solution within the range [",i,",",g,"]") 
+# another way to define a function is 
+#f = lambda x: 10**x + x - 4    
